@@ -1,4 +1,5 @@
 public class FibonacciSeries {
+    // using for loop
     public static void main1(String args[]) {
         int num1 = 0, num2 = 1, num3, count = 10;
         System.out.print(num1 + " " + num2); // printing 0 and 1
@@ -11,6 +12,7 @@ public class FibonacciSeries {
         }
     }
 
+    // using while loop
     static void Fibonacci(int N) { // time complexity is O(N)
         int num1 = 0, num2 = 1, counter = 0;
 
@@ -28,6 +30,7 @@ public class FibonacciSeries {
         Fibonacci(N);
     }
 
+    // using recursion
     static int num1 = 0, num2 = 1, num3 = 0;
 
     static void printFibonacci(int count) { //// time complexity is O(2^N)
